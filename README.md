@@ -52,7 +52,7 @@ Then run `make install` again.
 
 ### Linting
 
-* Install hadolint from [here](<https://github.com/hadolint/hadolint) and add addd the necessary permisssions with `chmod +x /usr/bin/hadolint`
+* Install hadolint from [here](https://github.com/hadolint/hadolint) and add addd the necessary permisssions with `chmod +x /usr/bin/hadolint`
 * Run `make lint` to lint the project
 
 ### Testing
@@ -64,7 +64,7 @@ Then run `make install` again.
 ### Locally
 
 * Run `python app.py` to run the app locally
-* You can then access the app at `http://localhost:80
+* You can then access the app at `http://localhost:80`
 
 ### Docker
 
