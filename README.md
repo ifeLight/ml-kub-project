@@ -72,6 +72,7 @@ Then run `make install` again.
 * `requirements.txt` - The requirements file to install the dependencies
 * `output_txt_files/docker_out.txt` - The sample output of the docker container
 * `output_txt_files/kubernetes_out.txt` - The sample output of the kubernetes pod
+* `output_txt_files/prediction.json` - The sample prediction
 * `model_data/boston_housing_prediction.joblib` - The model file
 * `model_data/housing.csv` - The data file
 * `.circleci/config.yml` - The CircleCI configuration file
