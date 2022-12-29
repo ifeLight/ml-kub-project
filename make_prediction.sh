@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://localhost:$PORT/predict > ./output_txt_files/prediction.json
+     -X POST http://localhost:$PORT/predict
