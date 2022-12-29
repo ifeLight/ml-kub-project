@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="ifelight/ml-kub-project:1.0.0"
+dockerpath="ifelight/ml-kub-project:1.0.1"
 echo "Docker ID and Image: $dockerpath"
 
 # Step 2
@@ -21,4 +21,5 @@ kubectl get pods
 # Step 4:
 # Forward the container port to a host
 kubectl port-forward ml-kub-project 8000:80
+# kubectl port-forward ml-kub-project 8000:80 --log-dir="" --logtostderr=false --alsologtostderr=false --log-file-max-size=0
 

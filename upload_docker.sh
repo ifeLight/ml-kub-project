@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=ifelight/ml-kub-project:1.0.0
+dockerpath=ifelight/ml-kub-project:1.0.1
 
 # Step 2:  
 # Authenticate & tag
