@@ -20,6 +20,7 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward ml-kub-project 8000:80
+kubectl port-forward ml-kub-project 8000:80 --log-file=sample.txt
 # kubectl port-forward ml-kub-project 8000:80 --log-dir="" --logtostderr=false --alsologtostderr=false --log-file-max-size=0
-
+# Attach pod logs to terminal
+kubectl logs pods/ml-kub-project
