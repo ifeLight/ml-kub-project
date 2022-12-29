@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Docker ID and Image: ifelight/ml-kub-project:1.0.0
+Error from server (AlreadyExists): pods "ml-kub-project" already exists
+NAME             READY   STATUS    RESTARTS   AGE
+ml-kub-project   1/1     Running   0          10m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000

@@ -11,6 +11,9 @@ setup:
 	python3 -m venv ~/.devops
 
 install:
+	# Some necessary files for Scipy to work for Ubuntu 
+	# sudo apt install libblas3 liblapack3 liblapack-dev libblas-dev -y
+	# sudo apt install gfortran -y
 	# This should be run from inside a virtualenv
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
