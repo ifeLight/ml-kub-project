@@ -30,8 +30,7 @@ jobs:
             make install
             # Install hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_64 && \
-            echo which hadolint && \
-            chmod +x /usr/bin/hadolint
+            chmod +x /bin/hadolint
 
       - save_cache:
           paths:
